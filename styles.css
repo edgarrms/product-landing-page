@@ -8,7 +8,11 @@ body {
     margin-right: auto;
 }
 
-/* controls the css of smaller screen devices */
+/* #img-6 {
+  opacity: 0.5;
+} */
+
+/* ---controls the css of smaller screen devices---*/
 @media (max-width:800px) {
     #header-img {
         display: block;
@@ -18,7 +22,7 @@ body {
         
     }
 
-    /* nav bar css of smaller screen devices*/
+    /* ---nav bar css of smaller screen devices---*/
 body {margin:0;}
 
 ul {
@@ -53,10 +57,14 @@ li a:hover:not(.nav-link) {
     
 }
 
-/* nav bar css */
+/* ---nav bar css--- */
+
+
 body {margin:0;}
 
-ul {
+
+
+#nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -67,7 +75,7 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
@@ -86,9 +94,77 @@ li a:hover:not(.nav-link) {
   background-color: #ffee00;
 }
 
-/* video css */
+/*---video css--- */
 #video {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ---flex box--- */
+
+#container {
+  display: flex;
+}
+
+/* ---email--- */
+#email {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* ---submit button--- */
+#submit {
+  background-color: #ffee00;
+  border-radius: 10%;
+  color: rgb(3, 3, 3);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ /* ---sign-up---*/
+#sign-up {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ---form--- */
+form {
+ text-align: center;
+}
+
+/* ---info--- */
+#album-info {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+  animation-name: balvin;
+  animation-duration: 4s;
+  animation-delay: 1s;
+}
+
+@keyframes balvin {
+  0% {color: yellow;}
+  25% {color: aqua;} 
+  50% {color: yellow;}
+  75% {color: red;}
+  100% {color: yellow;}
+}
+
+#link:hover {
+  color: #ffee00;
+  font-size: 25px;
 }

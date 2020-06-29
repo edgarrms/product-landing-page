@@ -14,7 +14,7 @@
 
     <nav id="nav-bar">
         <ul>
-            <li><a class="nav-link" style="color: black;" href="#header-img">Image</a></li>
+            <li><a class="nav-link" width="50px" style="color: black;" href="#header-img">Image</a></li>
             <li><a class="nav-link" style="background-color: black;" href="#video">Video</a></li>
             <li><a class="nav-link" style="background-color: black;" href="#form">Form</a></li>
             <li><a class="nav-link" style="background-color: black;" href="#submit">Submit it</a></li>
@@ -28,17 +28,33 @@
     <br>
     <br>
 
+    <!-- box-1 video outside container-->
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yPYBWd79X08" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br>
+    <div>
+        <p id="album-info">
+            On 19 March 2020, J Balvin dropped his latest albulm Colores. The album songs are all based on Colores
+            that according to Apple Music's Editors' Notes, were named based on the color the song would remind the
+            artist of. The Song "Amarillo" was made for Discos according to Balvin, and states that you may know J
+            Balvin but not many know Jose(Balvins first name). In "Amarillo" Balvin also states that he doesn't
+            compliacate his life. Balvin based "Azul" on a women that independently lives by her own rules according to
+            Apple musics Editors' Notes. Read more about it by clicking on the link below.
+            <br>
+            <a id="link" target="_black" href="https://music.apple.com/us/album/colores/1500490683?ign-gact=3&ls=1">
+                Album + Editors' Notes
+            </a>
+        </p>
+
+        <br>
+        <br>
+
+    </div>
     <!-- container begins -->
     <div id="container">
-
-        <!-- box-1 -->
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/yPYBWd79X08" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
         <!-- box-2 -->
-        <img id="img-1"
-            src="https://lh3.googleusercontent.com/proxy/New8HnP6o5SVGK9Gfl5dG4rrP5GHt2MqP8JW-5rpX9fi_Qqx53UXcjYyXqfrYllll-HiPUciR8uFwbsDDLGM3GDCgw8TiceKP9QXpuaUB9a-d4WUFk8OR3qtSCR1GP3Wat0k"
-            height="500px" width="auto">
+        <img id="img-1" src="" height="500px" width="auto">
 
         <!-- box-3 -->
         <img id="img-2" id=" img-1" src="https://i.pinimg.com/736x/b3/eb/03/b3eb03c1b4c002ab3a7d376a63433614.jpg"
@@ -51,39 +67,34 @@
             height="150px" width="auto">"
 
         <!-- box-5 -->
-        <img id="img-3" id=" img-1" src="https://i.pinimg.com/474x/26/f8/e3/26f8e30e0ce785aaf023c3e0fb689b83.jpg"
+        <img id="img-4" id=" img-1" src="https://i.pinimg.com/474x/26/f8/e3/26f8e30e0ce785aaf023c3e0fb689b83.jpg"
             height="400px" width="auto">"
 
         <!-- box-6 -->
-        <img id="img-3" id=" img-1" src="https://i.pinimg.com/474x/15/1b/0c/151b0c97352869487b312d1d25f0c663.jpg"
-            height="400px" width="auto">"
+        <img id="img-5" id=" img-1" src="https://i.pinimg.com/474x/15/1b/0c/151b0c97352869487b312d1d25f0c663.jpg"
+            height="300px" width="auto">"
 
 
         <!-- box-7 -->
-        <img id="img-3" id=" img-1" src="https://i.pinimg.com/474x/14/2d/e9/142de97f91e6507266a52487b57425c2.jpg"
-            height="400px" width="auto">"
+        <img id="img-5" id=" img-1" src="https://i.pinimg.com/474x/14/2d/e9/142de97f91e6507266a52487b57425c2.jpg"
+            height="300px" width="auto">"
 
         <!-- box-8 -->
-        <!-- <img id="img-3" id=" img-1" src="https://i.pinimg.com/474x/7e/ca/8f/7eca8faf8af721c37d7b1a1f4985611f.jpg"
-            style="border-radius: 10%;" height="400px" width="auto">" -->
-
-
-        <!-- box-9 -->
-        <img id="img-3" id=" img-1" src="" height="400px" width="auto">"
-
-
-        <!-- box-10 -->
-        <img id="img-3" id=" img-1" src="" height="400px" width="auto">"
-
-
-
-
-
-
-
-
+        <img id="img-6" id=" img-1"
+            src="https://paymentweek.com/wp-content/uploads/2018/07/136ca87edafc0ebb141fc1b2bb93f1ae.jpg" height="300px"
+            width="auto">
 
     </div>
+
+    <!-- form begins -->
+    <p id="sign-up">Sign up for more info.</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+
+        <input id="email" type="email" name="email" placeholder="enter email here" required>
+        <a href="https://www.freecodecamp.com/email-submit"> <input id="submit" type="submit"></a>
+
+
+    </form>
 
     <!-- freecodecamp test checker -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
